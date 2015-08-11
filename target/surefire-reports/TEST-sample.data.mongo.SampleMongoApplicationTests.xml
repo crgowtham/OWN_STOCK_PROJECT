@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="sample.data.mongo.SampleMongoApplicationTests" time="2.375" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.51-b03"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/crgowtham/Downloads/Work/spring-boot-master/spring-boot-samples/spring-boot-sample-data-mongodb"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/crgowtham/Downloads/Work/spring-boot-master/spring-boot-samples/spring-boot-sample-data-mongodb"/>
+    <property name="java.runtime.version" value="1.8.0_51-b16"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/0v/w9f3mv9d2230ndk24f01fsvr0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/crgowtham/Documents/STS_WORKSPACE/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf6427720018360384852.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/crgowtham/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.10.3"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/crgowtham"/>
+    <property name="user.timezone" value="US/Pacific"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="crgowtham"/>
+    <property name="java.class.path" value="/Users/crgowtham/Desktop/STS.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.6.1.20150625-2337/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_51"/>
+    <property name="java.ext.dirs" value="/Users/crgowtham/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/crgowtham/Downloads/Work/spring-boot-master/spring-boot-samples/spring-boot-sample-data-mongodb/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testDefaultSettings" classname="sample.data.mongo.SampleMongoApplicationTests" time="2.375">
+    <failure message="Wrong output: &#10;  .   ____          _            __ _ _&#10; /\\ / ___&apos;_ __ _ _(_)_ __  __ _ \ \ \ \&#10;( ( )\___ | &apos;_ | &apos;_| | &apos;_ \/ _` | \ \ \ \&#10; \\/  ___)| |_)| | | | | || (_| |  ) ) ) )&#10;  &apos;  |____| .__|_| |_|_| |_\__, | / / / /&#10; =========|_|==============|___/=/_/_/_/&#10; :: Spring Boot ::  (v1.2.2.BUILD-SNAPSHOT)&#10;&#10;2015-08-10 22:45:45.753  INFO 15001 --- [           main] s.data.mongo.SampleMongoApplication      : Starting SampleMongoApplication on gowthams-MBP with PID 15001 (/Users/crgowtham/Downloads/Work/spring-boot-master/spring-boot-samples/spring-boot-sample-data-mongodb/target/classes started by crgowtham in /Users/crgowtham/Downloads/Work/spring-boot-master/spring-boot-samples/spring-boot-sample-data-mongodb)&#10;2015-08-10 22:45:45.780  INFO 15001 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d47c63f: startup date [Mon Aug 10 22:45:45 PDT 2015]; root of context hierarchy&#10;2015-08-10 22:45:46.084  INFO 15001 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean &apos;beanNameViewResolver&apos;: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]&#10;2015-08-10 22:45:46.613  INFO 15001 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)&#10;2015-08-10 22:45:46.763  INFO 15001 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat&#10;2015-08-10 22:45:46.764  INFO 15001 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.18&#10;2015-08-10 22:45:46.824  INFO 15001 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext&#10;2015-08-10 22:45:46.824  INFO 15001 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1046 ms&#10;2015-08-10 22:45:47.391  INFO 15001 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: &apos;dispatcherServlet&apos; to [/]&#10;2015-08-10 22:45:47.394  INFO 15001 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: &apos;characterEncodingFilter&apos; to: [/*]&#10;2015-08-10 22:45:47.394  INFO 15001 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: &apos;hiddenHttpMethodFilter&apos; to: [/*]&#10;2015-08-10 22:45:47.628  INFO 15001 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d47c63f: startup date [Mon Aug 10 22:45:45 PDT 2015]; root of context hierarchy&#10;2015-08-10 22:45:47.665  INFO 15001 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/customer],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public java.util.Map&lt;java.lang.String, java.lang.Object&gt; sample.data.mongo.CustomerService.createBook(java.util.Map&lt;java.lang.String, java.lang.Object&gt;)&#10;2015-08-10 22:45:47.665  INFO 15001 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/customer/{bookId}],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json || application/xml],custom=[]}&quot; onto public sample.data.mongo.Customer sample.data.mongo.CustomerService.getBookDetails(java.lang.String)&#10;2015-08-10 22:45:47.666  INFO 15001 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)&#10;2015-08-10 22:45:47.666  INFO 15001 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)&#10;2015-08-10 22:45:47.684  INFO 15001 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]&#10;2015-08-10 22:45:47.684  INFO 15001 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]&#10;2015-08-10 22:45:47.707  INFO 15001 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]&#10;2015-08-10 22:45:47.752  INFO 15001 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup&#10;2015-08-10 22:45:47.806  INFO 15001 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)&#10;2015-08-10 22:45:47.807  INFO 15001 --- [           main] s.data.mongo.SampleMongoApplication      : Started SampleMongoApplication in 2.216 seconds (JVM running for 2.562)&#10;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Wrong output: 
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::  (v1.2.2.BUILD-SNAPSHOT)
+
+2015-08-10 22:45:45.753  INFO 15001 --- [           main] s.data.mongo.SampleMongoApplication      : Starting SampleMongoApplication on gowthams-MBP with PID 15001 (/Users/crgowtham/Downloads/Work/spring-boot-master/spring-boot-samples/spring-boot-sample-data-mongodb/target/classes started by crgowtham in /Users/crgowtham/Downloads/Work/spring-boot-master/spring-boot-samples/spring-boot-sample-data-mongodb)
+2015-08-10 22:45:45.780  INFO 15001 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d47c63f: startup date [Mon Aug 10 22:45:45 PDT 2015]; root of context hierarchy
+2015-08-10 22:45:46.084  INFO 15001 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2015-08-10 22:45:46.613  INFO 15001 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2015-08-10 22:45:46.763  INFO 15001 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2015-08-10 22:45:46.764  INFO 15001 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.18
+2015-08-10 22:45:46.824  INFO 15001 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2015-08-10 22:45:46.824  INFO 15001 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1046 ms
+2015-08-10 22:45:47.391  INFO 15001 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2015-08-10 22:45:47.394  INFO 15001 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2015-08-10 22:45:47.394  INFO 15001 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2015-08-10 22:45:47.628  INFO 15001 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d47c63f: startup date [Mon Aug 10 22:45:45 PDT 2015]; root of context hierarchy
+2015-08-10 22:45:47.665  INFO 15001 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customer],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.Map<java.lang.String, java.lang.Object> sample.data.mongo.CustomerService.createBook(java.util.Map<java.lang.String, java.lang.Object>)
+2015-08-10 22:45:47.665  INFO 15001 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customer/{bookId}],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json || application/xml],custom=[]}" onto public sample.data.mongo.Customer sample.data.mongo.CustomerService.getBookDetails(java.lang.String)
+2015-08-10 22:45:47.666  INFO 15001 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2015-08-10 22:45:47.666  INFO 15001 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2015-08-10 22:45:47.684  INFO 15001 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2015-08-10 22:45:47.684  INFO 15001 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2015-08-10 22:45:47.707  INFO 15001 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2015-08-10 22:45:47.752  INFO 15001 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2015-08-10 22:45:47.806  INFO 15001 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2015-08-10 22:45:47.807  INFO 15001 --- [           main] s.data.mongo.SampleMongoApplication      : Started SampleMongoApplication in 2.216 seconds (JVM running for 2.562)
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at sample.data.mongo.SampleMongoApplicationTests.testDefaultSettings(SampleMongoApplicationTests.java:55)
+]]></failure>
+    <system-out><![CDATA[
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::  (v1.2.2.BUILD-SNAPSHOT)
+
+2015-08-10 22:45:45.753  INFO 15001 --- [           main] s.data.mongo.SampleMongoApplication      : Starting SampleMongoApplication on gowthams-MBP with PID 15001 (/Users/crgowtham/Downloads/Work/spring-boot-master/spring-boot-samples/spring-boot-sample-data-mongodb/target/classes started by crgowtham in /Users/crgowtham/Downloads/Work/spring-boot-master/spring-boot-samples/spring-boot-sample-data-mongodb)
+2015-08-10 22:45:45.780  INFO 15001 --- [           main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d47c63f: startup date [Mon Aug 10 22:45:45 PDT 2015]; root of context hierarchy
+2015-08-10 22:45:46.084  INFO 15001 --- [           main] o.s.b.f.s.DefaultListableBeanFactory     : Overriding bean definition for bean 'beanNameViewResolver': replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/ErrorMvcAutoConfiguration$WhitelabelErrorViewConfiguration.class]] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter; factoryMethodName=beanNameViewResolver; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/web/WebMvcAutoConfiguration$WebMvcAutoConfigurationAdapter.class]]
+2015-08-10 22:45:46.613  INFO 15001 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2015-08-10 22:45:46.763  INFO 15001 --- [           main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2015-08-10 22:45:46.764  INFO 15001 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.18
+2015-08-10 22:45:46.824  INFO 15001 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2015-08-10 22:45:46.824  INFO 15001 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1046 ms
+2015-08-10 22:45:47.391  INFO 15001 --- [ost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2015-08-10 22:45:47.394  INFO 15001 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2015-08-10 22:45:47.394  INFO 15001 --- [ost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2015-08-10 22:45:47.628  INFO 15001 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d47c63f: startup date [Mon Aug 10 22:45:45 PDT 2015]; root of context hierarchy
+2015-08-10 22:45:47.665  INFO 15001 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customer],methods=[POST],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.util.Map<java.lang.String, java.lang.Object> sample.data.mongo.CustomerService.createBook(java.util.Map<java.lang.String, java.lang.Object>)
+2015-08-10 22:45:47.665  INFO 15001 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/customer/{bookId}],methods=[GET],params=[],headers=[],consumes=[],produces=[application/json || application/xml],custom=[]}" onto public sample.data.mongo.Customer sample.data.mongo.CustomerService.getBookDetails(java.lang.String)
+2015-08-10 22:45:47.666  INFO 15001 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2015-08-10 22:45:47.666  INFO 15001 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],methods=[],params=[],headers=[],consumes=[],produces=[text/html],custom=[]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest)
+2015-08-10 22:45:47.684  INFO 15001 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2015-08-10 22:45:47.684  INFO 15001 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2015-08-10 22:45:47.707  INFO 15001 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2015-08-10 22:45:47.752  INFO 15001 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2015-08-10 22:45:47.806  INFO 15001 --- [           main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2015-08-10 22:45:47.807  INFO 15001 --- [           main] s.data.mongo.SampleMongoApplication      : Started SampleMongoApplication in 2.216 seconds (JVM running for 2.562)
+]]></system-out>
+  </testcase>
+</testsuite>
