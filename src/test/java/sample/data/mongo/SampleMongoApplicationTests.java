@@ -23,13 +23,15 @@ import org.junit.Test;
 import org.springframework.boot.test.OutputCapture;
 import org.springframework.core.NestedCheckedException;
 
-import com.mongodb.MongoServerSelectionException;
-import com.mongodb.MongoTimeoutException;
+import com.gowtham.stock.StockApplication;
+
+//import com.mongodb.MongoServerSelectionException;
+//import com.mongodb.MongoTimeoutException;
 
 import static org.junit.Assert.assertTrue;
 
 /**
- * Tests for {@link SampleMongoApplication}.
+ * Tests for {@link StockApplication}.
  *
  * @author Dave Syer
  */
@@ -44,7 +46,7 @@ public class SampleMongoApplicationTests {
 	@Test
 	public void testDefaultSettings() throws Exception {
 		try {
-			SampleMongoApplication.main(new String[0]);
+			StockApplication.main(new String[0]);
 		}
 		catch (IllegalStateException ex) {
 			if (serverNotRunning(ex)) {
@@ -61,7 +63,7 @@ public class SampleMongoApplicationTests {
 		NestedCheckedException nested = new NestedCheckedException("failed", ex) {
 		};
 		Throwable root = nested.getRootCause();
-		if (root instanceof MongoServerSelectionException
+		/*if (root instanceof MongoServerSelectionException
 				|| root instanceof MongoTimeoutException) {
 			if (root.getMessage().contains("Unable to connect to any server")) {
 				return true;
@@ -69,7 +71,7 @@ public class SampleMongoApplicationTests {
 			if (TIMEOUT_MESSAGE_PATTERN.matcher(root.getMessage()).matches()) {
 				return true;
 			}
-		}
+		}*/
 		return false;
 	}
 

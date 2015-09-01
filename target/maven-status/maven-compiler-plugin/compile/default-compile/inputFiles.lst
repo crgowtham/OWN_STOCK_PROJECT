@@ -1,4 +1,11 @@
-/Users/crgowtham/Downloads/Work/spring-boot-master/spring-boot-samples/spring-boot-sample-data-mongodb/src/main/java/sample/data/mongo/Customer.java
-/Users/crgowtham/Downloads/Work/spring-boot-master/spring-boot-samples/spring-boot-sample-data-mongodb/src/main/java/sample/data/mongo/CustomerRepository.java
-/Users/crgowtham/Downloads/Work/spring-boot-master/spring-boot-samples/spring-boot-sample-data-mongodb/src/main/java/sample/data/mongo/SampleMongoApplication.java
-/Users/crgowtham/Downloads/Work/spring-boot-master/spring-boot-samples/spring-boot-sample-data-mongodb/src/main/java/sample/data/mongo/CustomerService.java
+/Users/crgowtham/Downloads/StockProject/spring-boot-sample-data-mongodb/src/main/java/com/gowtham/stock/to/Errors.java
+/Users/crgowtham/Downloads/StockProject/spring-boot-sample-data-mongodb/src/main/java/com/gowtham/stock/mongo/repo/StockdbRespository.java
+/Users/crgowtham/Downloads/StockProject/spring-boot-sample-data-mongodb/src/main/java/com/gowtham/stock/util/StockSharedData.java
+/Users/crgowtham/Downloads/StockProject/spring-boot-sample-data-mongodb/src/main/java/com/gowtham/stock/service/StockService.java
+/Users/crgowtham/Downloads/StockProject/spring-boot-sample-data-mongodb/src/main/java/com/gowtham/stock/to/StockDetails.java
+/Users/crgowtham/Downloads/StockProject/spring-boot-sample-data-mongodb/src/main/java/com/gowtham/stock/to/StockData.java
+/Users/crgowtham/Downloads/StockProject/spring-boot-sample-data-mongodb/src/main/java/com/gowtham/stock/batch/CompositeItemWriter.java
+/Users/crgowtham/Downloads/StockProject/spring-boot-sample-data-mongodb/src/main/java/com/gowtham/stock/bo/StockApplicationConfig.java
+/Users/crgowtham/Downloads/StockProject/spring-boot-sample-data-mongodb/src/main/java/com/gowtham/stock/StockApplication.java
+/Users/crgowtham/Downloads/StockProject/spring-boot-sample-data-mongodb/src/main/java/com/gowtham/stock/to/StockResponse.java
+/Users/crgowtham/Downloads/StockProject/spring-boot-sample-data-mongodb/src/main/java/com/gowtham/stock/to/StockMap.java

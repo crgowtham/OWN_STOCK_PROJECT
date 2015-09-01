@@ -1,0 +1,9 @@
+com/gowtham/stock/batch/CompositeItemWriter.class
+com/gowtham/stock/bo/StockApplicationConfig.class
+com/gowtham/stock/to/StockMap.class
+com/gowtham/stock/to/Errors.class
+com/gowtham/stock/service/StockService.class
+com/gowtham/stock/to/StockDetails.class
+com/gowtham/stock/mongo/repo/StockdbRespository.class
+com/gowtham/stock/StockApplication.class
+com/gowtham/stock/to/StockData.class
